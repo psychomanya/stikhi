@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Специальная книжная тема (сепия) */
+.sepia-theme {
+  background-color: #fbf0d9 !important;
+  color: #433422 !important;
+}
+
+.sepia-theme header {
+  background-color: rgba(251, 240, 217, 0.92) !important;
+  border-color: #eed8b6 !important;
+}
+
+.sepia-theme .bg-white {
+  background-color: #f5e9d0 !important;
+  border-color: #e6d3af !important;
+}
+
+.sepia-theme .bg-stone-50 {
+  background-color: #eee1c4 !important;
+}
+
+.sepia-theme .bg-stone-100 {
+  background-color: #e7d8b8 !important;
+}
+
+.sepia-theme .border-stone-200 {
+  border-color: #e2cca6 !important;
+}
+
+.sepia-theme .text-stone-900 {
+  color: #3e2e1c !important;
+}
+
+.sepia-theme .text-stone-800 {
+  color: #493823 !important;
+}
+
+.sepia-theme .text-stone-700 {
+  color: #5d482f !important;
+}
+
+.sepia-theme .text-stone-600 {
+  color: #725b3e !important;
+}
+
+.sepia-theme .text-stone-500 {
+  color: #8c7150 !important;
+}
